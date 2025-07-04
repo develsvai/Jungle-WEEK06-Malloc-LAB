@@ -74,7 +74,7 @@ int mm_init(void){
     //프롤로그 푸터 추가
     PUT(heap_listp + (2  * WSIZE), HEADER(DSIZE, 1));
     //에필로그 헤더 추가
-    PUT(heap_listp + (2  * WSIZE), HEADER(DSIZE, 1));
+    PUT(heap_listp + (3  * WSIZE), HEADER(0, 1));
     //힙의 시작 위치를 에필로그 헤더 앞으로 이동
     heap_listp += (2+WSIZE);
 
