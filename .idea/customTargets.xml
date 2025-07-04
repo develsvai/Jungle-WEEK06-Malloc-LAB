@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="d64ff94a-9a71-4f92-a903-699d88a024f3" name="malloc" defaultType="TOOL">
+      <configuration id="f94cb295-484a-4b57-86e9-0cc777213a70" name="malloc" toolchainName="Default" />
+    </target>
+  </component>
+</project>
